@@ -1,0 +1,949 @@
+/*
+
+
+
+
+
+This is the file where you can add your custom styles to change the look of the
+
+theme. But don't modify style-main.css file.
+
+
+
+*/
+
+
+
+/* Your custom css codes start here: */
+
+
+
+/*--Aboutdiv starts--*/
+
+
+
+/*--Aboutdiv ends--*/
+
+@media (max-width: 991px)
+{
+.mt-sm-15 {
+    margin-top: 0px !important;
+}
+}
+
+
+
+/*--- divider css starts---*/
+
+.layer-overlay:before
+
+{
+
+    background:none;
+
+}
+
+.divider .container .dividercontent
+
+{
+
+        /*box-shadow: 3px 5px 8px 4px #000;
+
+    padding:10px;*/
+
+}
+
+
+
+/*--- divider css ends---*/
+
+
+
+
+
+/*---testimonial css starts----*/
+
+.testimonial .thumb img
+
+{
+
+        border-top-right-radius: 14px;
+
+    border-bottom-left-radius: 15px;
+
+    border: 1px solid red;
+
+}
+
+/*---testimonial css ends----*/
+
+
+
+/*---footer address css starts----*/
+
+.widget p span 
+
+{
+
+        padding-right: 10px;
+
+}
+
+
+
+/*---footer address css ends----*/
+
+
+
+
+
+/*---about megamenu css starts----*/
+
+.aboutcontentcarausel .carousel-control.left
+
+{
+
+    background:none;
+
+}
+
+.aboutcontentcarausel .carousel-control.right
+
+{
+
+    background:none;
+
+}
+
+
+
+.aboutcontentcarausel .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+
+ left: -13%;
+
+    margin-left: -10px;
+
+    color: blue;
+
+}
+
+.aboutcontentcarausel .carousel-control .fa-chevron-left, .carousel-control .icon-prev {
+
+    left: -13%;
+
+    margin-left: -10px;
+
+    color: blue;
+
+    top: 50%;
+
+    position: absolute;
+
+}
+
+.aboutcontentcarausel .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next
+
+{
+
+        right: -11%;
+
+    color: blue;
+
+}
+
+
+
+.aboutcontentcarausel .carousel-control .fa-chevron-right, .carousel-control .icon-next
+
+{
+
+        right: -11%;
+
+    color: blue;
+
+        top: 50%;
+
+    position: absolute;
+
+}
+
+
+
+/*---about megamenu css ends----*/
+
+
+
+/*--At a glance css starts--*/
+
+
+
+.service-block
+
+{
+
+    min-height:570px;
+
+}
+
+
+
+.image-box-thum
+
+{
+
+    background:url(../images/ataglancebg.jpg);
+
+     height:152px;
+
+      background-size:100%;
+
+      background-repeat:no-repeat;
+
+}
+
+.glancediv 
+
+{
+
+    text-align:center;
+
+}
+
+.glancediv h3
+
+{
+
+           text-align: center;
+
+    color: #fff;
+
+    font-weight: bold;
+
+    padding-top: 10px;
+
+    text-shadow: 2px 2px 2px red;
+
+    font-size: 30px;
+
+    /* border-bottom: 1px solid blue; */
+
+    position: relative;
+
+}
+
+.glancediv h3:after
+
+{
+
+    
+
+         content: "";
+
+    height: 2px;
+
+    width: 100px;
+
+    background: #e5e81a !important;
+
+    position: absolute;
+
+    bottom: -1px;
+
+    content: "";
+
+       margin-left: -84px;
+
+}
+
+.glancediv strong
+
+{
+
+        color: #fff;
+
+            text-shadow: 2px 2px 2px red;
+
+            text-align:center;
+
+}
+
+
+
+/*--At a glance css ends--*/
+
+
+
+/*--event and program css starts---*/
+
+
+
+.post .entry-content
+
+{
+
+    min-height:215px;
+
+}
+
+
+
+/*--event and program css ends---*/
+
+
+
+/*---megamenu css starts---*/
+
+
+
+.menuzord-menu > li > .megamenu
+
+{
+
+        right: 0px;
+
+    display: block;
+
+    border: 1px solid red;
+
+}
+
+/*---megamenu css ends---*/
+
+
+
+
+
+/*--Course content starts--*/
+
+.service-block .thumb .thumbcourse
+
+{
+
+    background:url(../images/bg/coursebg.jpg);
+
+     height:195px;
+
+      background-size:100%;
+
+      background-repeat:no-repeat;
+
+}
+
+.service-block .thumb .thumbcourse1
+
+{
+
+     background:url(../images/coursenew/AASTHA.jpg);
+
+      height:195px;
+
+      background-size:100%;
+
+         background-repeat:no-repeat;
+
+}
+
+.service-block .thumb .thumbcourse2
+
+{
+
+     background:url(../images/coursenew/AAKRITI.jpg);
+
+      height:195px;
+
+      background-size:100%;
+
+         background-repeat:no-repeat;
+
+}
+
+.service-block .thumb .thumbcourse3
+
+{
+
+     background:url(../images/coursenew/AADHAR.jpg);
+
+      height:195px;
+
+      background-size:100%;
+
+         background-repeat:no-repeat;
+
+}
+
+.service-block .thumb .thumbcourse4
+
+{
+
+     background:url(../images/coursenew/UDAYA.jpg);
+
+      height:195px;
+
+      background-size:100%;
+
+         background-repeat:no-repeat;
+
+}
+
+.service-block .thumb .thumbcourse5
+
+{
+
+     background:url(../images/coursenew/VIKAS.jpg);
+
+      height:195px;
+
+      background-size:100%;
+
+         background-repeat:no-repeat;
+
+}
+
+.service-block .thumb .thumbcourse .coursediv
+
+{
+
+     text-align:center;
+
+         padding-top: 2em;
+
+}
+
+.service-block .thumb .thumbcourse .coursediv h3
+
+{
+
+          text-align: center;
+
+    color: #fff;
+
+    font-weight: bold;
+
+    padding-top: 10px;
+
+    text-shadow: 2px 2px 2px #000;
+
+    font-size: 30px;
+
+     border-bottom: 1px solid #e5e81a; 
+
+}
+
+
+
+.service-block .thumb .thumbcourse1 .coursediv
+
+{
+
+     text-align:center;
+
+         padding-top: 2em;
+
+}
+
+.service-block .thumb .thumbcourse1 .coursediv h3
+
+{
+
+          text-align: center;
+
+    color: #fff;
+
+    font-weight: bold;
+
+    padding-top: 10px;
+
+    text-shadow: 2px 2px 2px #000;
+
+    font-size: 30px;
+
+     border-bottom: 1px solid #e5e81a; 
+
+}
+
+
+
+
+
+.service-block .thumb .thumbcourse2 .coursediv
+
+{
+
+     text-align:center;
+
+         padding-top: 2em;
+
+}
+
+.service-block .thumb .thumbcourse2 .coursediv h3
+
+{
+
+          text-align: center;
+
+    color: #fff;
+
+    font-weight: bold;
+
+    padding-top: 10px;
+
+    text-shadow: 2px 2px 2px #000;
+
+    font-size: 30px;
+
+     border-bottom: 1px solid #e5e81a; 
+
+}
+
+
+
+
+
+.service-block .thumb .thumbcourse3 .coursediv
+
+{
+
+     text-align:center;
+
+         padding-top: 2em;
+
+}
+
+.service-block .thumb .thumbcourse3 .coursediv h3
+
+{
+
+          text-align: center;
+
+    color: #fff;
+
+    font-weight: bold;
+
+    padding-top: 10px;
+
+    text-shadow: 2px 2px 2px #000;
+
+    font-size: 30px;
+
+     border-bottom: 1px solid #e5e81a; 
+
+}
+
+
+
+
+
+.service-block .thumb .thumbcourse4 .coursediv
+
+{
+
+     text-align:center;
+
+         padding-top: 2em;
+
+}
+
+.service-block .thumb .thumbcourse4 .coursediv h3
+
+{
+
+          text-align: center;
+
+    color: #fff;
+
+    font-weight: bold;
+
+    padding-top: 10px;
+
+    text-shadow: 2px 2px 2px #000;
+
+    font-size: 30px;
+
+     border-bottom: 1px solid #e5e81a; 
+
+}
+
+
+
+/*--Course content ends--*/
+
+
+
+
+
+/*--Megamenu about us css starts--*/
+
+.aboutmega .team-members h4
+
+{
+
+    font-size:14px;
+
+}
+
+
+
+
+
+/*--Megamenu about us css ends--*/
+
+
+
+
+
+.bg-theme-color-2, .line-bottom:after, .line-bottom-center:after
+
+{
+
+    font-weight:bold;
+
+}
+
+.bg-theme-color-2 i
+
+{
+
+    font-size:15px;
+
+    font-weight:bold;
+
+    padding-right:10px;
+
+}
+
+
+
+.megamenu .service-block
+
+{
+
+    height:auto;
+
+    min-height:0px;
+
+}
+
+
+
+.appdiv img
+
+{
+
+        width: 150px;
+
+}
+
+
+
+/*--banners css starts---*/
+
+
+
+.aboutbanner
+
+{
+
+    background-image: url(../images/banner/aboutbanner.jpg);
+
+    background-size:100%;
+
+    height:300px;
+
+    background-repeat:no-repeat;
+
+}
+
+.coursebanner
+
+
+
+{
+
+    background-image: url(../images/banner/coursebanner.jpg);
+
+    background-size:100%;
+
+    height:300px;
+
+    background-repeat:no-repeat;
+
+}
+
+
+
+/*---Spark css starts---*/
+
+.sparklist ul li {
+
+    position: relative;
+
+    padding-left: 27px;
+
+    padding-right: 0px;
+
+    margin-bottom: 5px;
+
+    text-align:justify;
+
+}
+
+.sparklist ul li i {
+
+    position: absolute;
+
+    /* display: inline-block; */
+
+    /* width: 40px; */
+
+    /* height: 50px; */
+
+    /* text-align: center; */
+
+    /* background: #34a964; */
+
+    line-height: 18px;
+
+    /* font-size: 17px; */
+
+    font-weight: 300;
+
+    left: 0px;
+
+    top: 0px;
+
+  color:#990100;
+
+    -webkit-border-radius: 50%;
+
+    -moz-border-radius: 50%;
+
+    /* border-radius: 50%; */
+
+    font-weight: bold;
+
+      padding-right: 10px;
+
+}
+
+/*---Spark css ends---*/
+
+.viewdet
+
+{
+
+    text-align:center;
+
+}
+
+.block-hdnews
+
+{
+
+        margin-top: 1.5em;
+
+            white-space: nowrap;
+
+
+
+}
+
+.block-hdnews .fa
+
+{
+
+    margin-left:10px;
+
+    color:Red;
+
+}
+
+.m_title
+
+{
+
+    margin-top:5px;
+
+    margin-bottom:5px;
+
+    text-align:center;
+
+}
+
+.m_title img
+
+{
+
+   
+
+.owl-carousel .owl-item .testimonial img
+
+{
+
+    width:60px;
+
+}
+
+
+
+@media only screen and (max-width : 600px)
+
+{
+
+    .service-block
+
+{
+
+    min-height:0px;
+
+}
+
+/*--banners css responsive starts---*/
+
+.aboutbanner
+
+{
+
+        height: auto;
+
+
+
+}
+
+
+
+.coursebanner
+
+{
+
+    height:auto;
+
+}
+
+.coursebanner .container
+
+{
+
+       padding-top: 0px;
+
+    padding-bottom: 0px;
+
+}
+
+.aboutbanner .container
+
+{
+
+        padding-top: 0px;
+
+    padding-bottom: 0px;
+
+     
+
+}
+
+
+
+.block-hdnews
+
+{
+
+        margin-top: 1em;
+
+            white-space: nowrap;
+
+
+
+}
+
+
+
+.service-block .thumb .thumbcourse1
+
+{
+
+    height:250px;
+
+}
+
+.service-block .thumb .thumbcourse2
+
+{
+
+    height:250px;
+
+}
+
+
+
+.service-block .thumb .thumbcourse3
+
+{
+
+   
+
+      height:250px;
+
+   
+
+}
+
+.service-block .thumb .thumbcourse4
+
+{
+
+     
+
+      height:250px;
+
+  
+
+}
+
+.service-block .thumb .thumbcourse5
+
+{
+
+   
+
+      height:250px;
+
+    
+
+}
+
+.feedbackdiv
+
+{
+
+    margin-top:4em;
+
+}
+
+.icon-box .icon-box-details
+
+{
+
+    margin-left:0px;
+
+}
+
+.icon-box .text-gray {
+
+   
+
+    margin-top: 10px;
+
+    text-align:justify;
+
+}
+
+
+
+
+
+
+
+}
+
+
+
